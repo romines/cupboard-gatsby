@@ -12,6 +12,7 @@ class IndexPage extends Component {
   render() {
     const menuItems = this.props.data.allWordpressWpApiMenusMenusItems.edges[0].node.items
     const pages = this.props.data.allWordpressPage.edges
+
     return (
       <Layout
         activePage={'aasdflk'}
